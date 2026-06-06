@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  background: #9c7353;
+
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fff;
+  align-items: center;
+  padding: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+
+}
+.counter {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 24px;
+}
+
+
+center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+ place-items: center;
+flex-grow: 1;
+@media (max-width: 1024px) {
+padding: 32px 20px 24px;
+gap: 18px;
+}
+};
+
+.home {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  margin-top: 200px;
+}
+
+.shop-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.coffee-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+
+}
+.admin-form {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+.admin-form button{
+  padding: 12px;
+ border: none;
+ cursor: pointer;
+background: #9c7353;
+color: white;
+font-size: 16px;
+border-radius: 5px;
+}
+@media (max-width: 1024px) {
+  .admin-form {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.coffee-card {
+  background: rgb(0,0,0,0.2);
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+
+}
+
+.coffee-card h2 {
+  margin: 0 0 10px;
+  margin-top: 0;
+  padding: 10px;
+}
+.coffee-data {
+  background-color: black;
+
+}
